@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>プライバシーポリシー</title>
+    <script src="pp_script.js" defer></script>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+        }
+
+        #language-selector {
+            margin-bottom: 20px;
+        }
+
+        select {
+            padding: 10px;
+            font-size: 1rem;
+            cursor: pointer;
+        }
+
+        #links {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div id="language-selector">
+        <select id="language">
+            <option value="jp">🇯🇵</option>
+            <option value="en">🇺🇸/🇬🇧</option>
+        </select>
+    </div>
+
+
+    <div id="content">
+        <p id="description"></p>
+    </div>
+
+    <p id="footer-text">ryomei © <span id="current-year"></span></p>
+</body>
+</html>
